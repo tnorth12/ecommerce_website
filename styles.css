@@ -13,34 +13,61 @@ html {
 
 
 
-selector {
-    property: value;
-
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    color:black;
+    margin: 5%;
 }
 
-/* .section-wrapper{
-    height: 250px;
 
-} */
+header{
+    background-color: rgb(0, 255, 213);
+    position: relative;
+    padding: 1rem;
+    display: block;
+   
+
+}
 
 .home-section{
-    background-color: rgb(0, 174, 255);
-    height: 250px;
-
+    background-color:rgb(0, 255, 213);
+    padding-top: 5%;
+    
+    
+   
+}
+.home img {
+      
+    margin-inline: 25rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 10%;
+    border-style: double;    
+    background-color: rgba(128, 128, 128, 0.521);
+    border-color: black;
+    width: 400px;
+    height: 400px;
 }
 
+
 .about-section{
-    background-color: rgb(0, 174, 255)
+    background-color: whitesmoke;
+    padding-top: 5%;
+    
     
 }
 
 .products-section{
-    background-color: rgb(0, 255, 179)
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    color:black;
+    margin: 8%; 
     
 }
 
 .contact-section{
-    background-color: rgb(0, 174, 255)
+    background-color: whitesmoke
     
 }
 
