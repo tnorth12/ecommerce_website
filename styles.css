@@ -1,0 +1,58 @@
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+
+selector {
+    property: value;
+
+}
+
+/* .section-wrapper{
+    height: 250px;
+
+} */
+
+.home-section{
+    background-color: rgb(0, 174, 255);
+    height: 250px;
+
+}
+
+.about-section{
+    background-color: rgb(0, 174, 255)
+    
+}
+
+.products-section{
+    background-color: rgb(0, 255, 179)
+    
+}
+
+.contact-section{
+    background-color: rgb(0, 174, 255)
+    
+}
+
+.flex-container{
+    display: flex;
+}
+
+.image-container{
+    width: 200px;
+    height: 400px;
+}
+
+.image{
+    width: 100%;
+}
